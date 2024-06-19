@@ -15,6 +15,10 @@ class LogType:
         Args:
         - name (str): The name of the log type.
         """
+        self.name = name
+
+#: Or just import it
+from PineUtils.Logger import LogType
 ```
 
 ---
@@ -53,6 +57,9 @@ class Theme:
         - mediumColor (Chromify.Color): The medium color associated with the theme.
         - darkColor (Chromify.Color): The dark color associated with the theme.
         """
+
+#: You can import it using:
+from PineUtils.Logger import Theme
 ```
 
 ---

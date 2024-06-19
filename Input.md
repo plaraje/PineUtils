@@ -21,17 +21,6 @@ The `InputFormats` class defines various input formats using Chromify colors for
 - `SELECT`: Color for select input.
 - `CUSTOM`: Color for custom input.
 
-### Usage:
-
-```python
-import Chromify
-
-# Example usage of color attributes
-print(InputFormats.TEXT.fore() + "Enter your text here")
-print(InputFormats.INT.fore() + "Enter an integer")
-# ...
-```
-
 ---
 
 ## Input Class
@@ -84,20 +73,20 @@ Contains static methods for different input prompt types.
 ### Usage:
 
 ```python
-from Files import FileDialog, File, Directory, Path
-import Logger as LG
+from PineUtils.Files import FileDialog, File, Directory, Path
+import PineUtils.Logger as LG
 
 # Example usage to get integer input
-value = Input.Prompt.prompt(Input.Prompt.Types.INTONLY, "Enter an integer:", custom_display="integer")
+value = Input.Prompt.prompt(Input.Prompt.Types.INTONLY, "Enter an integer:")
 
 # Example usage to get file input
-file = Input.Prompt.prompt(Input.Prompt.Types.FILE, "Select a file:", file_types=[".txt", ".csv"])
+file = Input.Prompt.prompt(Input.Prompt.Types.FILE, "Select a file:", file_types=[("Text Files",".txt"), ("CSV Files",".csv")])
 
 # Example usage to get directory input
 directory = Input.Prompt.prompt(Input.Prompt.Types.DIRECTORY, "Select a directory:")
 
 # Example usage to get custom input with a mapping
-result = Input.Prompt.prompt(Input.Prompt.Types.CUSTOM, "Enter a fruit:", custom_map={"apple": "red", "banana": "yellow"})
+result = Input.Prompt.prompt(Input.Prompt.Types.CUSTOM, "Enter a fruit:", custom_map={("apple", "Choose red"): "red", ("banana","Choose yellow"): "yellow"})
 
 # Example usage to get selection from a list
 fruits = ["apple", "banana", "orange"]

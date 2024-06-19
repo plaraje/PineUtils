@@ -125,3 +125,11 @@ Current version: `0.0.1`
 
 Feedback and bug reports can be submitted via GitHub issues or by contacting the author directly.
 This was specially tested in Windows 10 so any feedback is welcome
+
+## More Specific Docs
+
+For more specific docs see also:
+- [Logger Class](Logger.md)
+- [Input Class](Input.md)
+- [Files Class](Files.md)
+- [Array2D Class](Array2D.md)
