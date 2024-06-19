@@ -38,9 +38,6 @@ Represents a path object with utility methods for handling paths.
 
 ### File Class
 
-```markdown
-## File Class
-
 Represents a file object with methods for file operations.
 
 ### Attributes
