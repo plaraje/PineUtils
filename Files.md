@@ -83,11 +83,9 @@ Represents a file object with methods for file operations.
 
 - **open(path: Union[Path, str], chunksize: int = 8192) -> 'File'**:
   Static method to open a File object from a path.
-```
 
 ### Directory Class
 
-```markdown
 ## Directory Class
 
 Represents a directory object with methods for directory operations.
@@ -140,11 +138,10 @@ Represents a directory object with methods for directory operations.
 
 - **get_metadata() -> dict**:
   Retrieves metadata for the directory.
-```
+
 
 ### FileDialog Class
 
-```markdown
 ## FileDialog Class
 
 Provides static methods for opening file dialogs based on the operating system.
@@ -161,11 +158,9 @@ Provides static methods for opening file dialogs based on the operating system.
   Opens a directory selection dialog based on the operating system.
 
   - Returns: Union[Path, None]: Path object representing the selected directory path or None if selection fails.
-```
 
 ### ZipUtil Class
 
-```markdown
 ## ZipUtil Class
 
 Provides static methods for compressing and decompressing files and directories.
