@@ -34,7 +34,6 @@ Represents a path object with utility methods for handling paths.
 
 - **__repr__() -> str**:
   Returns the official string representation of the Path object.
-```
 
 ### File Class
 
