@@ -1,7 +1,7 @@
-import classes.Array2D as Array2D
-import classes.Files as Files
-import classes.Input as Input
-import classes.Logger as Logger
+import Array2D as Array2D
+import Files as Files
+import Input as Input
+import Logger as Logger
 
 
 
