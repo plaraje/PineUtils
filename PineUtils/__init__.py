@@ -7,5 +7,5 @@ import Logger as Logger
 
 AUTHOR = "Plaraje (DMAM2) plaraje@proton.me"
 MAIL = "plaraje@proton.me"
-
+VERSION = "0.0.3"
 
