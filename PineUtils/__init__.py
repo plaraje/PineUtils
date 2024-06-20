@@ -1,8 +1,4 @@
-import Array2D as Array2D
-import Files as Files
-import Input as Input
-import Logger as Logger
-
+from .main import Logger, Array2D, Input, Files
 
 
 AUTHOR = "Plaraje (DMAM2) plaraje@proton.me"

@@ -119,7 +119,7 @@ print(f"Directory path: {directory.path}, Files: {directory.data}")
 
 ## Version
 
-Current version: `0.0.3`
+Current version: `0.0.4`
 
 ## Feedback
 
