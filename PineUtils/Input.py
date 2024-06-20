@@ -1,6 +1,6 @@
 import Chromify
-from Files import FileDialog, File, Directory, Path
-import Logger as LG
+from .Files import FileDialog, File, Directory, Path
+from .Logger import Logger as LG
 
 class InputFormats:
     """
@@ -180,9 +180,9 @@ class Input:
                         for key, display in select_list.keys():
                             if value.lower() == key.lower() or value.lower() == display.lower():
                                 return select_list[(key, display)]
-                    LG.Logger.whiteLine()
-                    LG.Logger.error("Invalid selection. Please enter a valid option.", "INPUT ERROR", preindentations=1)
-                    LG.Logger.whiteLine()
+                    LG.whiteLine()
+                    LG.error("Invalid selection. Please enter a valid option.", "INPUT ERROR", preindentations=1)
+                    LG.whiteLine()
             elif inputType == Input.Prompt.Types.CUSTOM:
                 value = input(f"\t{prompt} {InputFormats.TEXT.fore()}:{InputFormats.CUSTOM.fore()}({custom_display}){InputFormats.TEXT.fore()}> {InputFormats.CUSTOM.fore()}")
                 if custom_map:
