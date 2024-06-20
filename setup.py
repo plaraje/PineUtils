@@ -8,7 +8,7 @@ setuptools.setup(
 	name="PineUtils", 
 
 	# version of the module 
-	version="0.0.5", 
+	version="0.1.0", 
 
 	# Name of Author 
 	author="Plaraje (DMAM2)", 

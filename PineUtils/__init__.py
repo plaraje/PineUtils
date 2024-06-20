@@ -1,4 +1,7 @@
-from .main import Logger, Array2D, Input, Files
+from . import Logger
+from . import Input
+from . import Files
+from . import Array2D
 
 
 AUTHOR = "Plaraje (DMAM2) plaraje@proton.me"
